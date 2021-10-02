@@ -1,0 +1,241 @@
+/* ------------hero starts------------ */
+@media only screen and (max-width: 600px) {}
+
+
+@media only screen and (min-width: 601px) {}
+
+
+@media only screen and (max-width: 767px) {
+    .hero nav .menu span{
+        display: block;
+    }
+    .hero nav .menu ul{
+        display: none;
+    }
+
+}
+
+
+@media only screen and (min-width: 992px) {}
+/* -----------------hero ends--------------------- */
+
+/* ---------------header starts---------------- */
+@media only screen and (max-width: 600px) {
+    .header .header-content .my-img{
+        flex-basis: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header .header-content .introduce{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width:767px) {}
+
+
+@media only screen and (max-width: 991px) {
+    .header .header-content .introduce p{
+        font-size: 2vw;
+        font-weight: 600;
+    }
+    .header .header-content .introduce h1{
+        font-size: 4vw;
+        font-family: 'Fredoka One', cursive;
+    }
+    .header .header-content .introduce h1 span{
+        font-size: 4vw;
+        font-family: 'Fredoka One', cursive;
+        color: #10625e;
+    }
+    .header .header-content .introduce h2{
+        font-size: 3vw;
+        margin-bottom: 30px;
+    }
+    .header .header-content .introduce a{
+        /* display: flex; */
+        align-items: center;
+        /* margin-top: 30px; */
+        text-decoration: none;
+        font-size: 15px;
+        color: #fff;
+        font-weight: 600;
+        padding: 7px 19px;
+        border: 2px solid #771cdf;
+        border-radius: 30px;
+    }
+}
+
+
+@media only screen and (max-width:1024px) {}
+
+
+@media only screen and (max-width:1199px) {}
+/* ---------------header ends---------------- */
+
+/* -----------------------about starts---------------------- */
+@media only screen and (max-width: 600px) {
+    .about .about-details .about-img{
+        display: none;
+    }
+    .about .about-details .short-details{
+        flex-basis: 100%;
+    }
+    .about .about-details .short-details{
+        padding:0 1%;
+    }
+}
+
+
+
+@media only screen and (max-width:767px) {
+    .about .about-details{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .about .about-details .about-img{
+        flex-basis: 100%;
+    }
+    .about .about-details .about-img img{
+        width: 100%;
+        border-radius: 5px;
+    }
+    .about .about-details .short-details{
+        flex-basis: 100%;
+        /* padding:0 10%; */
+        margin-top: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 991px) {}
+
+
+@media only screen and (max-width:1023px) {
+    .about .about-details{
+        justify-content: space-between;
+    }
+    .about .about-details .about-img{
+        flex-basis: 37%;
+    
+    }
+    .about .about-details .about-img img{
+        width: 100%;
+        border-radius: 5px;
+    }
+    .about .about-details .short-details{
+        flex-basis: 60%;
+    }
+    .about .about-details .short-details a{
+        text-decoration: none;
+        border: 2px solid #f11f65;
+        background: #f11f65;
+        font-size: 14px;
+        border-radius: 5px;
+        padding: 5px 18px;
+        color: #fff;
+        font-weight: 600;
+    
+    }
+}
+
+
+@media only screen and (max-width:1199px) {}
+
+/* -----------------------about ends---------------------- */
+
+/* ---------------------skills starts----------------- */
+@media only screen and (max-width: 600px) {
+    .skill{
+        margin-top: 90px;
+        padding: 0 10px;
+    }
+}
+
+
+@media only screen and (max-width:767px) {}
+
+
+@media only screen and (max-width: 991px) {}
+
+
+@media only screen and (max-width:1024px) {}
+
+
+@media only screen and (max-width:1199px) {}
+
+/* ---------------------skills ends----------------- */
+
+
+/* -----------------teams starts----------------- */
+@media only screen and (max-width: 600px) {
+    .team{
+        margin-top: 90px;
+        padding: 0 10px;
+    }
+    .contact{
+        margin-top: 90px;
+        padding: 0 10px;
+    }
+}
+
+
+@media only screen and (max-width:767px) {}
+
+
+@media only screen and (max-width: 991px) {}
+
+
+@media only screen and (max-width:1024px) {}
+
+
+@media only screen and (max-width:1199px) {}
+/* -----------------teams ends----------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {}
+
+
+@media only screen and (max-width:767px) {}
+
+
+@media only screen and (max-width: 991px) {}
+
+
+@media only screen and (max-width:1024px) {}
+
+
+@media only screen and (max-width:1199px) {}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width:767px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 991px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width:1199px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
